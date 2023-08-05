@@ -1,7 +1,5 @@
 git clone https://github.com/vhive-serverless/vhive.git
 cd vhive
-# checkout branch that fixed install script error
-git checkout fix_install_script
 mkdir -p /tmp/vhive-logs
 ./scripts/cloudlab/setup_node.sh stock-only
 

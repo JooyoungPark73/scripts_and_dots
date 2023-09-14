@@ -21,6 +21,9 @@ sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 sudo chmod 666 /var/run/docker.sock
 
+sudo apt install python3-pip
+pip install apache-airflow-client grpcio grpcio-tools
+
 # Some Additional Packages that I will use
 # sudo apt-get install -y htop python3-pip
 # pip install pendulum
